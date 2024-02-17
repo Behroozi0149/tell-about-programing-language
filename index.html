@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>programming language</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>programming language</h1>
+  </header>
+  <aside>
+    <p id="demo"></p>
+  </aside>
+  <nav><button type="button" onclick="myFunction1()">C#</button><button type="button"
+      onclick="myFunction2()">python</button><button type="button" onclick="myFunction3()">html</button></nav>
+  <script>
+    function myFunction1() {
+      document.getElementById("demo").innerHTML = "Object-oriented: Build complex systems with classes, inheritance, etc." +
+        "Statically typed: Enforces type safety for reliable code." +
+        "Cross-platform: Runs on Windows, macOS, Linux, and more." +
+        "Popular for: Web, desktop, games, mobile, data science.";
+    }
+    function myFunction2() {
+      document.getElementById("demo").innerHTML = "Python: popular, beginner-friendly language known for readability and versatility. Great for web dev, data science, scripting, and more. Runs on various OSes.";
+    }
+    function myFunction3() {
+      document.getElementById("demo").innerHTML = "HTML: the building blocks of web pages. Not a programming language, but a markup language defining structure and content." +
+        "Defines structure: Headings, paragraphs, lists, images, links, and more with tags.Doesn't style: Leaves that to CSS." +
+        "Works with others: CSS and JavaScript for interactivity and dynamics." +
+        "Easy to learn, flexible, and versatile. Great for beginners and various websites.";
+    }
+  </script>
+</body>
+
+</html>
